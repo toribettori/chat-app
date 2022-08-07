@@ -14,11 +14,15 @@
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .left-bottom{
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
+  overflow: scroll;
 }
 .right-top{
   height: 100px;
@@ -34,4 +38,23 @@
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px ;
+}
+.l-t-name a{
+font-size: 16px;
+color: #fafafa;
+text-decoration: none;
+}
+.l-t-room a{
+  color: deepskyblue;
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+.room-name a{
+  color: white;
+  text-decoration: none;
+}
+.room{
+  padding: 20px 0 40px;
 }
